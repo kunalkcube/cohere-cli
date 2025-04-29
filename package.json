@@ -4,7 +4,7 @@
   "description": "A beautiful CLI for chatting with Cohere AI models",
   "main": "index.js",
   "bin": {
-    "cohere": "./index.js"
+    "cohere": "index.js"
   },
   "scripts": {
     "start": "node index.js"
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kunalkcube/cohere-cli.git"
+    "url": "git+https://github.com/kunalkcube/cohere-cli.git"
   },
   "homepage": "https://github.com/kunalkcube/cohere-cli#readme",
   "dependencies": {
