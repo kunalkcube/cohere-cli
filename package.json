@@ -1,0 +1,35 @@
+{
+  "name": "cohere-cli",
+  "version": "1.0.0",
+  "description": "A beautiful CLI for chatting with Cohere AI models",
+  "main": "index.js",
+  "bin": {
+    "cohere": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cohere",
+    "ai",
+    "cli",
+    "chat"
+  ],
+  "author": "Kunal Kongkan Kashyap",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-highlight": "^2.1.11",
+    "commander": "^8.3.0",
+    "dotenv": "^16.0.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "he": "^1.2.0",
+    "inquirer": "^8.2.6",
+    "markdown-it": "^13.0.1",
+    "node-fetch": "^2.6.7",
+    "ora": "^5.4.1",
+    "table": "^6.8.1"
+  }
+}
